@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import productsData from "../data/products";
+import productsData from "../data/product-detail";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";

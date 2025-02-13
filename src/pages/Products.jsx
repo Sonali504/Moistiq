@@ -1,24 +1,24 @@
 import { Link } from "react-router-dom";
-import heroImage from "../assets/images/hero-banner.jpg";
+import heroImage from "/images/hero-banner.jpg";
 import ProductCard from "../components/ProductCard";
 
 // Import product images
-import redRose from "../assets/images/red-rose.jpg";
-import pinkBlossom from "../assets/images/pink-blossom.jpg";
-import nudeElegance from "../assets/images/nude-elegance.jpg";
-import sundownBrown from "../assets/images/sundown-brown.jpg";
-import nudyPink from "../assets/images/nudy-pink.jpg";
-import musicRose from "../assets/images/music-rose.jpg";
-import iceBrown from "../assets/images/ice-brown.jpg";
-import mehroonRed from "../assets/images/mahroon-red.jpg";
-import fuchsia from "../assets/images/fuchsia.jpg";
-import bloodyRed from "../assets/images/bloody-red.jpg";
-import violet from "../assets/images/violet.jpg";
-import red from "../assets/images/red.jpg";
-import blood from "../assets/images/blood.jpg";
-import brown from "../assets/images/brown.jpg";
-import duskyNude from "../assets/images/dusky-nude.jpg";
-import pink from "../assets/images/pink.jpg";
+import redRose from "/images/red-rose.jpg";
+import pinkBlossom from "/images/pink-blossom.jpg";
+import nudeElegance from "/images/nude-elegance.jpg";
+import sundownBrown from "/images/sundown-brown.jpg";
+import nudyPink from "/images/nudy-pink.jpg";
+import musicRose from "/images/music-rose.jpg";
+import iceBrown from "/images/ice-brown.jpg";
+import mehroonRed from "/images/mahroon-red.jpg";
+import fuchsia from "/images/fuchsia.jpg";
+import bloodyRed from "/images/bloody-red.jpg";
+import violet from "/images/violet.jpg";
+import red from "/images/red.jpg";
+import blood from "/images/blood.jpg";
+import brown from "/images/brown.jpg";
+import duskyNude from "/images/dusky-nude.jpg";
+import pink from "/images/pink.jpg";
 
 // Product Data
 const productsData = [

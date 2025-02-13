@@ -7,23 +7,23 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Products from "./Products";
 
 const images = [
-  "./src/assets/images/customer-1.jpg",
-  "./src/assets/images/customer-2.jpg",
-  "./src/assets/images/customer-3.jpg",
-  "./src/assets/images/customer-4.jpg",
-  "./src/assets/images/customer-5.jpg",
+  "/images/customer-1.jpg",
+  "/images/customer-2.jpg",
+  "/images/customer-3.jpg",
+  "/images/customer-4.jpg",
+  "/images/customer-5.jpg",
 ];
 
 const products = [
-  { id: 1, name: "Pink-Blossom", price: "$10.23", image: "/src/assets/images/pink-blossom.jpg" },
-  { id: 2, name: "Nude Elegance", price: "$25", image: "/src/assets/images/nude-elegance.jpg" },
-  { id: 3, name: "Red-Rose", price: "$19.99", image: "/src/assets/images/red-rose.jpg", discount: "20% Off" },
-  { id: 4, name: "Mehroon-Rd", price: "$20.99", image: "/src/assets/images/mahroon-red.jpg", discount: "20% Off" },
-  { id: 5, name: "Music-Rose", price: "$30", image: "/src/assets/images/music-rose.jpg" },
-  { id: 6, name: "Icy-Brown", price: "$35", image: "/src/assets/images/ice-brown.jpg" },
-  { id: 7, name: "Fuchsia Pink", price: "$29.99", image: "/src/assets/images/fuchsia.jpg", discount: "20% Off" },
-  { id: 8, name: "Nudy Pink", price: "$30.99", image: "/src/assets/images/nudy-pink.jpg", discount: "20% Off" },
-  { id: 9, name: "Sundown Brown", price: "$35", image: "/src/assets/images/sundown-brown.jpg" },
+  { id: 1, name: "Pink-Blossom", price: "$10.23", image: "/images/pink-blossom.jpg" },
+  { id: 2, name: "Nude Elegance", price: "$25", image: "/images/nude-elegance.jpg" },
+  { id: 3, name: "Red-Rose", price: "$19.99", image: "/images/red-rose.jpg", discount: "20% Off" },
+  { id: 4, name: "Mehroon-Rd", price: "$20.99", image: "/images/mahroon-red.jpg", discount: "20% Off" },
+  { id: 5, name: "Music-Rose", price: "$30", image: "/images/music-rose.jpg" },
+  { id: 6, name: "Icy-Brown", price: "$35", image: "/images/ice-brown.jpg" },
+  { id: 7, name: "Fuchsia Pink", price: "$29.99", image: "/images/fuchsia.jpg", discount: "20% Off" },
+  { id: 8, name: "Nudy Pink", price: "$30.99", image: "/images/nudy-pink.jpg", discount: "20% Off" },
+  { id: 9, name: "Sundown Brown", price: "$35", image: "/images/sundown-brown.jpg" },
 ];
 
 const Home = () => {
@@ -34,7 +34,7 @@ const Home = () => {
         {/* Image Section */}
         <div className="relative w-full flex justify-center items-center">
           <img
-            src="./src/assets/images/hero-section.jpg"
+            src="/images/hero-section.jpg"
             alt="Hero Image"
             className="rounded-4xl object-cover w-full md:w-5/6 h-[650px]"
           />
@@ -161,12 +161,12 @@ const Home = () => {
         <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0 relative">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <img
-              src="./src/assets/images/stan.jpg"
+              src="/images/stan.jpg"
               alt="Smiling Model"
               className="w-80 h-auto rounded-lg shadow-lg"
             />
             <img
-              src="./src/assets/images/stan-2.jpg"
+              src="/images/stan-2.jpg"
               alt="Lipstick Colors"
               className="w-80 h-auto rounded-lg shadow-lg"
             />
@@ -182,7 +182,7 @@ const Home = () => {
             {/* Image Section - 60% */}
             <div className="w-full lg:w-3/5">
               <img
-                src="./src/assets/images/why-1.jpg"
+                src="/images/why-1.jpg"
                 alt="Why Choose Us"
                 className="w-full h-[700px] rounded-lg shadow-lg"
               />
@@ -220,7 +220,7 @@ const Home = () => {
         {/* Left: Image */}
         <div className="md:w-1/2 w-full">
           <img
-              src="./src/assets/images/why.jpg"
+              src="/images/why.jpg"
               alt="Gimme a Bite Collection"
               className="w-full object-cover"
             />
@@ -269,7 +269,7 @@ const Home = () => {
         <div className="lg:w-1/2 flex flex-col items-center mt-12 lg:mt-0">
           <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg">
             <img
-              src="./src/assets/images/shop.jpg"
+              src="/images/shop.jpg"
               alt="Toronto Distillery"
               className="w-full h-full object-cover"
             />
@@ -287,7 +287,7 @@ const Home = () => {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full mt-20">
         {/* Left Section - Text & Button */}
         <div className="relative flex items-center justify-center bg-cover bg-center text-white p-8 h-[500px]" 
-            style={{ backgroundImage: `url('./src/assets/images/gift-bg.jpg')` }}>
+            style={{ backgroundImage: `url('../images/gift-bg.jpg')` }}>
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-serif italic">
               The best gifts aren't found, they're made
@@ -301,7 +301,7 @@ const Home = () => {
 
         {/* Right Section - Lipstick Image */}
         <section>
-              <img src="./src/assets/images/gift-bg1.jpg" alt="Lipsticks" className="w-full h-[500px] object-cover"/>
+              <img src="/images/gift-bg1.jpg" alt="Lipsticks" className="w-full h-[500px] object-cover"/>
           </section>
       </section>
       
