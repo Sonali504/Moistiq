@@ -67,7 +67,7 @@ const Navbar = ({ isMobileMenuOpen, toggleMobileMenu }) => {
             {/* Get Started Button */}
             <span className="inline-flex">
                 <Link
-                to="/login"
+                to="/signup"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium text-blue-600 hover:text-blue-500 focus:outline-none transition duration-150 ease-in-out"
                 >
                 Get Started
